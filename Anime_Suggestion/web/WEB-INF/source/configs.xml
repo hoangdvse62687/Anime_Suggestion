@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<configs xmlns="http://xml.netbeans.org/schema/configs"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://xml.netbeans.org/schema/configs configs.xsd">
+<!--    <config>
+        <uri>http://animetvn.tv</uri>
+         Format category 
+        <categoryContext>thể loại</categoryContext>
+        <parentElementCategory>ul</parentElementCategory>
+        <parentClassCategory>dropdown-menu</parentClassCategory>
+         Format paging 
+        <formatPagging>?page=</formatPagging>
+        <endformatPagging></endformatPagging>
+         Format Data 
+        <parentElementMovie>div</parentElementMovie>
+        <parentClassMovie>item film_item </parentClassMovie>
+        <imgElementMovie>img</imgElementMovie>
+        <imgClassMovie>lazyload thumb img-responsive</imgClassMovie>
+        <imgTargetMovie>data-src</imgTargetMovie>
+        <nameClassMovie>tooltip_title</nameClassMovie>
+        <nameTargetMovie>h3</nameTargetMovie>
+        <commentClassMovie></commentClassMovie>
+        <commentTargetMovie></commentTargetMovie>
+        <viewedClassMovie>viewed</viewedClassMovie>
+        <viewedTargetMovie>span</viewedTargetMovie>
+        
+        <shortenMovieDisplayOrder>href</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>img</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>viewed</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>name</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>comment</shortenMovieDisplayOrder>
+        Format Get Detail Data
+        <episodeClassMovieDetail>has-color</episodeClassMovieDetail>
+        <episodeTargetMovieDetail>li</episodeTargetMovieDetail>
+        <episodeContextMovideDetail>Số tập</episodeContextMovideDetail>
+        <typeClassMovieDetail>has-color</typeClassMovieDetail>
+        <typeTargetMovieDetail>li</typeTargetMovieDetail>
+        <yearClassMovieDetail>has-color</yearClassMovieDetail>
+        <yearTargetMovieDetail>li</yearTargetMovieDetail>
+        <yearContextMovieDetail>Năm phát sóng</yearContextMovieDetail>
+        <descriptionClassMovieDetail>content</descriptionClassMovieDetail>
+        <descriptionTargetMovieDetail>div</descriptionTargetMovieDetail>
+        <descriptionContextMovieDetail></descriptionContextMovieDetail>
+        
+        <dumplicateClassMovieDetail>has-color</dumplicateClassMovieDetail>
+        <dumplicateTagetMovideDetail>li</dumplicateTagetMovideDetail>
+        
+        <detailMovieDisplayOrder>type</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>episode</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>dump</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>year</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>description</detailMovieDisplayOrder>
+        Trend in week format
+        <topWeekNameCLassParent>id</topWeekNameCLassParent>
+        <topWeekValueClassParent>wrank-week</topWeekValueClassParent>
+        <topWeekElementName>div</topWeekElementName>
+        <topWeekClassUri>rank-film-list</topWeekClassUri>
+        <topWeekTargetUri>ul</topWeekTargetUri>
+        
+        <maximumPageGetInCategory>4</maximumPageGetInCategory>
+         Forbidden link categories 
+        <forbiddenLinkCategories>/tui-deo-balo-vi-pc158230.html</forbiddenLinkCategories>
+        
+        <topWeekImgClass>list-top-movie-item-thumb</topWeekImgClass>
+        <topWeekImgClassTarget>style</topWeekImgClassTarget>
+        <topWeekClassName>list-top-movie-item-vn</topWeekClassName>
+        <topWeekNameElement>span</topWeekNameElement>
+        <topWeekCommentClass>list-top-movie-item-view</topWeekCommentClass>
+        <topWeekCommentElement>span</topWeekCommentElement>
+    </config>-->
+    
+    
+    <config>
+        <uri>http://animevsub.tv</uri>
+         Format category 
+        <categoryContext>THỂ LOẠI</categoryContext>
+        <parentElementCategory>ul</parentElementCategory>
+        <parentClassCategory>sub-menu</parentClassCategory>
+         Format paging 
+        <formatPagging>trang-</formatPagging>
+        <endformatPagging>.html</endformatPagging>
+         Format Data 
+        <parentElementMovie>li</parentElementMovie>
+        <parentClassMovie>TPostMv</parentClassMovie>
+        <imgElementMovie>img</imgElementMovie>
+        <imgClassMovie>attachment-thumbnail size-thumbnail wp-post-image</imgClassMovie>
+        <imgTargetMovie>src</imgTargetMovie>
+        <nameClassMovie>Title</nameClassMovie>
+        <nameTargetMovie>h2</nameTargetMovie>
+        <commentClassMovie></commentClassMovie>
+        <commentTargetMovie></commentTargetMovie>
+        <viewedClassMovie>Year</viewedClassMovie>
+        <viewedTargetMovie>span</viewedTargetMovie>
+        <shortenMovieDisplayOrder>href</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>img</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>name</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>comment</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>viewed</shortenMovieDisplayOrder>
+        Get Data Format
+        <episodeClassMovieDetail>Time AAIco-access_time</episodeClassMovieDetail>
+        <episodeTargetMovieDetail>span</episodeTargetMovieDetail>
+        <episodeContextMovideDetail></episodeContextMovideDetail>
+        <typeClassMovieDetail>AAIco-adjust</typeClassMovieDetail>
+        <typeTargetMovieDetail>li</typeTargetMovieDetail>
+        <yearClassMovieDetail>Date AAIco-date_range</yearClassMovieDetail>
+        <yearTargetMovieDetail>span</yearTargetMovieDetail>
+        <yearContextMovieDetail></yearContextMovieDetail>
+        <descriptionClassMovieDetail>Description</descriptionClassMovieDetail>
+        <descriptionTargetMovieDetail>div</descriptionTargetMovieDetail>
+        <descriptionContextMovieDetail></descriptionContextMovieDetail>
+        
+        <dumplicateClassMovieDetail>AAIco-adjust</dumplicateClassMovieDetail>
+        <dumplicateTagetMovideDetail>li</dumplicateTagetMovideDetail>
+        
+        <detailMovieDisplayOrder>description</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>episode</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>year</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>dump</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>type</detailMovieDisplayOrder>
+        Trend in week format
+        <topWeekNameCLassParent>id</topWeekNameCLassParent>
+        <topWeekValueClassParent>showTopPhim</topWeekValueClassParent>
+        <topWeekElementName>section</topWeekElementName>
+        <topWeekClassUri>MovieList</topWeekClassUri>
+        <topWeekTargetUri>ul</topWeekTargetUri>
+        
+        <maximumPageGetInCategory>4</maximumPageGetInCategory>
+         Forbidden link categories 
+        <forbiddenLinkCategories>/tui-deo-balo-vi-pc158230.html</forbiddenLinkCategories>
+        
+        <topWeekImgClass>attachment-img-mov-sm size-img-mov-sm wp-post-image</topWeekImgClass>
+        <topWeekImgClassTarget>src</topWeekImgClassTarget>
+        <topWeekClassName>Title</topWeekClassName>
+        <topWeekNameElement>div</topWeekNameElement>
+        <topWeekCommentClass>div</topWeekCommentClass>
+        <topWeekCommentElement>div</topWeekCommentElement>
+    </config>
+    
+    <config>
+        <uri>https://anime47.com</uri>
+         Format category 
+        <categoryContext>thể loại</categoryContext>
+        <parentElementCategory>ul</parentElementCategory>
+        <parentClassCategory></parentClassCategory>
+         Format paging 
+        <formatPagging>/</formatPagging>
+        <endformatPagging>.html</endformatPagging>
+         Format Data 
+        <parentElementMovie>div</parentElementMovie>
+        <parentClassMovie>movie-item m-block</parentClassMovie>
+        <imgElementMovie>div</imgElementMovie>
+        <imgClassMovie>public-film-item-thumb ratio-content</imgClassMovie>
+        <imgTargetMovie>style</imgTargetMovie>
+        <nameClassMovie>movie-title-1</nameClassMovie>
+        <nameTargetMovie>div</nameTargetMovie>
+        <commentClassMovie>fbcom-left</commentClassMovie>
+        <commentTargetMovie>span</commentTargetMovie>
+        <viewedClassMovie>viewed-right</viewedClassMovie>
+        <viewedTargetMovie>span</viewedTargetMovie>
+        
+        <shortenMovieDisplayOrder>href</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>img</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>name</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>comment</shortenMovieDisplayOrder>
+        <shortenMovieDisplayOrder>viewed</shortenMovieDisplayOrder>
+        Format Get Detail Data
+        <episodeClassMovieDetail>movie-dd imdb</episodeClassMovieDetail>
+        <episodeTargetMovieDetail>dd</episodeTargetMovieDetail>
+        <episodeContextMovideDetail></episodeContextMovideDetail>
+        <typeClassMovieDetail>movie-dd dd-cat</typeClassMovieDetail>
+        <typeTargetMovieDetail>dd</typeTargetMovieDetail>
+        <yearClassMovieDetail>movie-dd</yearClassMovieDetail>
+        <yearTargetMovieDetail>dd</yearTargetMovieDetail>
+        <yearContextMovieDetail></yearContextMovieDetail>
+        <descriptionClassMovieDetail>news-article</descriptionClassMovieDetail>
+        <descriptionTargetMovieDetail>div</descriptionTargetMovieDetail>
+        <descriptionContextMovieDetail></descriptionContextMovieDetail>
+        
+        <dumplicateClassMovieDetail>movie-dd</dumplicateClassMovieDetail>
+        <dumplicateTagetMovideDetail>dd</dumplicateTagetMovideDetail>
+        
+        <detailMovieDisplayOrder>episode</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>type</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>dump</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>dump</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>year</detailMovieDisplayOrder>
+        <detailMovieDisplayOrder>description</detailMovieDisplayOrder>
+        Trend in week format
+        <topWeekNameCLassParent>data-name</topWeekNameCLassParent>
+        <topWeekValueClassParent>month</topWeekValueClassParent>
+        <topWeekElementName>div</topWeekElementName>
+        <topWeekClassUri>list-top-movie</topWeekClassUri>
+        <topWeekTargetUri>ul</topWeekTargetUri>
+        
+        <maximumPageGetInCategory>3</maximumPageGetInCategory>
+         Forbidden link categories 
+        <forbiddenLinkCategories>/tui-deo-balo-vi-pc158230.html</forbiddenLinkCategories>
+        
+        <topWeekImgClass>list-top-movie-item-thumb</topWeekImgClass>
+        <topWeekImgClassTarget>style</topWeekImgClassTarget>
+        <topWeekClassName>list-top-movie-item-vn</topWeekClassName>
+        <topWeekNameElement>span</topWeekNameElement>
+        <topWeekCommentClass>list-top-movie-item-view</topWeekCommentClass>
+        <topWeekCommentElement>span</topWeekCommentElement>
+    </config>
+</configs>

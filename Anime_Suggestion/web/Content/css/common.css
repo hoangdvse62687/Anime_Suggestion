@@ -1,0 +1,487 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2019, 4:01:11 PM
+    Author     : DELL
+*/
+body > #containerRoot{
+    height: auto;
+    min-height: 100%;
+}
+
+div {
+    display: block;
+}
+
+html, body
+{
+    margin: 0px;
+    padding: 0px;
+    font: normal 12px "Tahoma" , Arial, Helvetica, sans-serif;
+    line-height: 18px;
+    color: #dadada;
+    /*background: url(../images/tpl_bg.gif);*/
+    background-color:#161616;
+    height: 100%;
+}
+
+#head
+{
+    margin: 0px auto;
+    padding: 0px;
+    width: 970px;
+}
+
+#head h3
+{
+    margin: 48px 0 0 30px;
+    font: normal 14px "Tahoma" , Arial, Helvetica, sans-serif;
+    padding: 0px;
+    float: right;
+}
+
+#head h1
+{
+    margin: 10px 30px 0px 0px;
+    padding: 0px;
+    text-indent: -9999px;
+    float: left;
+    display: inline;
+}
+
+h1, h2, h3, h4
+{
+    font-size: 100%;
+}
+
+a
+{
+    /*  color: #333333; */
+    color: #d5f406;
+    text-decoration: none;
+    outline: medium none;
+}
+
+#head h1 a.logo
+{
+    display: block;
+    width: 400px;
+    height: 120px;
+    border: none;
+}
+
+#search input.text
+{
+    width: 190px;
+    padding: 3px;
+}
+
+input.text
+{
+    margin: 0 0 0 0;
+    border: 1px solid #666666;
+    background: #393939 url(../images/tpl_input_bg.gif) no-repeat top left;
+    font: normal 15px "Tahoma" , Arial, Helvetica, sans-serif;
+    color: #ccc;
+}
+
+#search input.button
+{
+    margin: -4px 0 0 0;
+    padding: 0px;
+    vertical-align: middle;
+}
+.clear
+{
+    clear: both;
+}
+#headnav
+{
+    margin: 10px auto;
+    padding: 0px;
+    text-align: left;
+    width: 100%;
+}
+#navbar
+{
+    width: 100%;
+    background: url(../images/tpl_navbar_bg.gif) repeat-x;
+    height: 50px;
+}
+
+#navcontainer a:link, #navcontainer a:visited
+{
+    float: left;
+    background: url(../images/tpl_navbar_btn.gif) no-repeat left top;
+    background-position: 0% -27px;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+#navcontainer a
+{
+    float: left;
+    display: block;
+    width: 103px;
+    height: 27px;
+    margin-right: 1px;
+}
+
+#navcontainer ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font: bold 12px/27px Arial, Helvetica, sans-serif;
+}
+
+#navcontainer li
+{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#navcontainer ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font: bold 12px/27px Arial, Helvetica, sans-serif;
+}
+#navcontainer
+{
+    position: relative;
+    width: 970px;
+    margin: 0px auto;
+}
+
+#container
+{
+    margin: 0px auto;
+    padding: 0px;
+    width: 970px;
+    text-align: center;    
+}
+
+#leftside
+{
+    margin: 0px;
+    padding: 0px;
+    width: 730px;
+    text-align: left;
+    float: left;
+}
+
+.bigBarContainer
+{
+    display: block;
+    width: 100%;
+    background: #111111;
+    border: 1px solid #2f2f2f;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+.barTitle
+{
+    height: 25px;
+    padding-left: 10px;
+    background: url("../images/tpl_box_bar.gif") repeat-x;
+    font: normal 17px/23px "Tahoma" , Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    color: #fff;
+}
+
+.barContent
+{
+    padding: 10px;
+    margin-top: 2px;
+    background: transparent url("../images/tpl_box_shading2.png") repeat-x;
+}
+
+.arrow-general
+{
+    margin: 0px;
+    padding: 0px;
+    height: 9px;
+    background: transparent url(../images/tpl_box_arrow.gif) no-repeat top left;
+    position: relative;
+    top: -12px;
+    left: -10px;
+}
+
+.label
+{
+    width: 150px;
+    padding: 2px 20px;
+    text-align: right;
+    font: normal 14px "Tahoma" , Arial, Helvetica, sans-serif;
+}
+
+form{
+    text-align: center;
+}
+
+label.error
+{
+    color: #C42A00;
+    padding: 0 10px;
+}
+
+.scrollable_title
+{
+    float: left;
+    font: normal 17px/23px "Tahoma" , Arial, Helvetica, sans-serif;
+    letter-spacing: -1px;
+    color: #fff;
+    height: 25px;
+}
+
+#recently-nav
+{
+    float: right;
+    margin-right: 5px;
+    width: auto;
+}
+a.prev
+{
+    background: url(../images/button-left.gif);
+    float: left;
+}
+
+a.prev, a.next
+{
+    display: block;
+    cursor: pointer;
+    width: 19px;
+    height: 19px;
+    background-repeat: no-repeat;
+    margin: 3px 0 0 0;
+}
+div.navi
+{
+    position: relative;
+    width: auto;
+    height: 0px;
+    float: left;
+    margin: 1px 15px 0 10px;
+}
+.active{
+    display: block;
+}
+.inactive{
+ display: none;   
+}
+a.next
+{
+    background: url(../images/button-right.gif);
+    float: left;
+}
+.scrollable
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 190px;
+}
+
+#navsubbar
+{
+    width: 100%;
+    background: url(../images/tpl_subnavbar_bg.gif) repeat-x;
+    height: 25px;
+    line-height: 20px;
+}
+
+.scrollable .items
+{
+    width: 20000em;
+    position: absolute;
+}
+
+.items div
+{
+    float: left;
+}
+
+div.items a
+{
+    display: block;
+    float: left;
+    margin-right: 8px;
+    width: 135px;
+    height: 180px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+div.items img
+{
+    border: 1px solid #313031;
+}
+
+.textDark
+{
+    color: #888888;
+}
+
+.clear2 {
+    clear: both;
+    height: 10px;
+}
+
+#submenu {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#subcontent {
+    width: 100%;
+    float: left;
+    margin: 15px 0px 0px;
+    padding: 0px;
+    background: url(../images/tpl_box_shading2.png) repeat-x rgb(17, 17, 17);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-image: initial;
+}
+
+#subcontent div div {
+    float: left;
+    display: block;
+    width: 710px;
+    margin: 0px;
+    padding: 10px;
+    background: rgb(17, 17, 17);
+    font: 12px Tahoma, Arial, Helvetica, sans-serif;
+}
+
+#subcontent div a img {
+    float: left;
+    margin: 0px 20px 0px 0px;
+    padding: 1px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(51, 51, 51);
+    border-image: initial;
+}
+
+#subcontent span.title {
+    font: 15px Tahoma, Arial, Helvetica, sans-serif;
+}
+.info {
+    color: rgb(136, 136, 136);
+}
+.dotUnder {
+    border-bottom: 1px dotted rgb(68, 68, 68);
+}
+
+a {
+    color: rgb(213, 244, 6);
+    text-decoration: none;
+    outline: none medium;
+}
+
+.bigBarContainer
+{
+    display: block;
+    width: 100%;
+    background: #111111;
+    border: 1px solid #2f2f2f;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+.bigChar
+{
+    margin: 0px;
+    padding: 0px;
+    font: normal 27px "Tahoma" , Arial, Helvetica, sans-serif;
+    color: #b1ca05;
+    letter-spacing: -2px;
+}
+
+#rightside
+{
+    padding: 0px;
+    width: 220px;
+    text-align: left;
+    float: right;
+}
+.rightBox {
+    display: block;
+    width: 213px;
+    padding: 2px;
+    background: #111111;
+    border: 1px solid #2f2f2f;
+}
+.details
+{
+    margin: 0px;
+    padding: 5px;
+    float: left;
+    display: block;
+    width: 720px;
+    font: normal 12px "Tahoma" , Arial, Helvetica, sans-serif;
+}
+
+.details a img
+{
+    border: 1px solid #333333;
+    float: left;
+    margin: 0 20px 0 0;
+    padding: 1px;
+    text-decoration: none;
+}
+
+#result_box
+{
+    position: absolute;
+    top: 29px;
+    left: 0px;
+    width: 250px;
+    padding: 5px;
+    color: #FFF;
+    background: #353535;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 13px;
+    -webkit-border-bottom-right-radius: 6px;
+    -webkit-border-bottom-left-radius: 6px;
+    -moz-border-radius-bottomright: 6px;
+    -moz-border-radius-bottomleft: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    z-index: 99;
+    text-align: left;
+}
+
+#loader
+{
+    width: 250px;
+    height: 16px;
+    display: block;
+    background: url("../images/loader.gif") no-repeat 50% 50%;    
+}
+
+element.style {
+    display: none;
+    left: 57px;
+    margin-top: -3px;
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

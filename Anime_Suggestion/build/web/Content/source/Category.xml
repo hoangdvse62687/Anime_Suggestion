@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<categories>
+    <category>
+        <name value="Hành Động">ACTION</name>
+    </category>
+    <category>
+        <name value="Phiêu Lưu">ADVENTURE</name>
+    </category>
+    <category>
+        <name value="Hài Hước">COMEDY</name>
+    </category>
+    <category>
+        <name value="Trinh Thám">DETECTIVE</name>
+    </category>
+    <category>
+        <name value="Drama">DRAMA</name>
+    </category>
+    <category>
+        <name value="Ecchi">ECCHI</name>
+    </category>
+    <category>
+        <name value="Fantasy">FANTASY</name>
+    </category>
+    <category>
+        <name value="Game">GAME</name>
+    </category>
+    <category>
+        <name value="Harem">HAREM</name>
+    </category>
+    <category>
+        <name value="Lịch Sử">HISTORICAL</name>
+    </category>
+    <category>
+        <name value="Kinh Dị">HORROR</name>
+    </category>
+    <category>
+        <name value="Phép Thuật">MAGIC</name>
+    </category>
+    <category>
+        <name value="Mecha">MECHA</name>
+    </category>
+    <category>
+        <name value="Military">MILITARY</name>
+    </category>
+    <category>
+        <name value="Âm Nhạc">MUSIC</name>
+    </category>
+    <category>
+        <name value="Mystery">MYSTERY</name>
+    </category>
+    <category>
+        <name value="Psychological">PSYCHOLOGICAL</name>
+    </category>
+    <category>
+        <name value="Romance">ROMANCE</name>
+    </category>
+    <category>
+        <name value="Học Đường">SCHOOL</name>
+    </category>
+    <category>
+        <name value="Viễn Tưởng">SCI_FI</name>
+    </category>
+    <category>
+        <name value="Seinen">SEINEN</name>
+    </category>
+    <category>
+        <name value="Shoujo">SHOUJO</name>
+    </category>
+    <category>
+        <name value="Đời Thường">SLICE_OF_LIFE</name>
+    </category>
+    <category>
+        <name value="Thể Thao">SPORTS</name>
+    </category>
+    <category>
+        <name value="Siêu Nhiên">SUPER_NATURAL</name>
+    </category>
+    <category>
+        <name value="Siêu Năng Lực">SUPER_POWER</name>
+    </category>
+    <category>
+        <name value="Thriller">THRILLER</name>
+    </category>
+</categories>

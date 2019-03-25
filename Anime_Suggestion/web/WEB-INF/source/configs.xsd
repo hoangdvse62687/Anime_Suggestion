@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://xml.netbeans.org/schema/configs"
+           xmlns="http://xml.netbeans.org/schema/configs"
+           elementFormDefault="qualified">
+           
+    <!-- Declare Http String -->
+    <xs:simpleType name="link">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(http|https)://[a-zA-Z0-9]+.[a-zA-Z]{2,6}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Declare String required length > 1 char -->
+    <xs:simpleType name="string">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Declare list string for  shortenMovieDisplayOrder-->
+    <xs:simpleType name="shortenListString">
+        <xs:restriction base="string">
+            <xs:enumeration value="href"/>
+            <xs:enumeration value="img"/>
+            <xs:enumeration value="name"/>
+            <xs:enumeration value="comment"/>
+            <xs:enumeration value="viewed"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Declare list string for detailMovieDisplayOrder-->
+    <xs:simpleType name="detailDisplayOrderListString">
+        <xs:restriction base="string">
+            <xs:enumeration value="episode"/>
+            <xs:enumeration value="type"/>
+            <xs:enumeration value="year"/>
+            <xs:enumeration value="description"/>
+            <xs:enumeration value="dump"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Declare Config -->
+    <xs:complexType name="config" mixed="true">
+        <xs:sequence>
+            <xs:element name="uri" type="link" />
+            <xs:element name="categoryContext" type="string" />
+            <xs:element name="parentElementCategory" type="string"/>
+            <xs:element name="parentClassCategory" type="xs:string" minOccurs="0"/>
+            <xs:element name="formatPagging" type="string"/>
+            <xs:element name="endformatPagging" type="xs:string" minOccurs="0"/>
+            <xs:element name="parentElementMovie" type="string"/>
+            <xs:element name="parentClassMovie" type="xs:string" minOccurs="0"/>
+            <xs:element name="imgElementMovie" type="string"/>
+            <xs:element name="imgClassMovie" type="xs:string" minOccurs="0"/>
+            <xs:element name="imgTargetMovie" type="string"/>
+            <xs:element name= "nameClassMovie" type="xs:string" minOccurs="0"/>
+            <xs:element name="nameTargetMovie" type="string"/>
+            <xs:element name="commentClassMovie" type="xs:string" minOccurs="0"/>
+            <xs:element name="commentTargetMovie" type="xs:string" minOccurs="0"/>
+            <xs:element name="viewedClassMovie" type="xs:string" minOccurs="0"/>
+            <xs:element name="viewedTargetMovie" type="string"/>
+            <xs:element name="shortenMovieDisplayOrder" type="shortenListString" maxOccurs="5"/>
+            <xs:element name="episodeClassMovieDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="episodeTargetMovieDetail" type="string"/>
+            <xs:element name="episodeContextMovideDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="typeClassMovieDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="typeTargetMovieDetail" type="string"/>
+            <xs:element name="yearClassMovieDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="yearTargetMovieDetail" type="string"/>
+            <xs:element name="yearContextMovieDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="descriptionClassMovieDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="descriptionTargetMovieDetail" type="string"/>
+            <xs:element name="descriptionContextMovieDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="dumplicateClassMovieDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="dumplicateTagetMovideDetail" type="xs:string" minOccurs="0"/>
+            <xs:element name="detailMovieDisplayOrder" type="detailDisplayOrderListString" maxOccurs="unbounded"/>
+            <xs:element name="topWeekNameCLassParent" type="xs:string" minOccurs="0"/>
+            <xs:element name="topWeekValueClassParent" type="xs:string" minOccurs="0"/>
+            <xs:element name="topWeekElementName" type="xs:string" minOccurs="0"/>
+            <xs:element name="topWeekClassUri" type="string"/>
+            <xs:element name="topWeekTargetUri" type="string"/>
+            <xs:element name="maximumPageGetInCategory" type="xs:positiveInteger"/>
+            <xs:element name="forbiddenLinkCategories" type="string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="topWeekImgClass" type="string"/>
+            <xs:element name="topWeekImgClassTarget" type="string"/>
+            <xs:element name="topWeekClassName" type="string"/>
+            <xs:element name="topWeekNameElement" type="string"/>
+            <xs:element name="topWeekCommentClass" type="string"/>
+            <xs:element name="topWeekCommentElement" type="string"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    
+    <xs:element name="configs">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="config" type="config" minOccurs="2" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
